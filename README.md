@@ -1,52 +1,51 @@
-📊 Big Data & Data Mining Projects
+# 🧠 Big Data & Data Mining Course Projects
 
-This repository contains a collection of assignments and exercises from my university coursework on **Big Data and Data Mining**, 
-focused on both theoretical and practical aspects using **PySpark** and **MLlib**.
+This repository contains a collection of assignments and mini-projects completed during my undergraduate course in **Big Data and Data Mining**. The tasks are designed to explore various concepts ranging from data preprocessing to machine learning model evaluation using **PySpark**, **MLlib**, and other essential tools.
 
-## 🔧 Tools & Technologies
-- Python
-- Apache Spark (PySpark)
-- Spark MLlib
-- RDD & DataFrame APIs
-- Jupyter Notebook
+## 🔍 Topics Covered
 
-## 🧠 Topics Covered
+### 📦 Data Preparation
+- Creating data lists (structured/unstructured)
+- Text preprocessing & data cleaning
+- Tokenization & stopword removal
+- Converting to Spark RDD & DataFrame
+- Data manipulation and transformation
+- Data integration and joins
 
-### 1. 🔥 Introduction to PySpark
-- Spark architecture and components
-- Working with SparkContext and SparkSession
+### 📊 Exploratory Data Analysis (EDA)
+- Understanding data distribution
+- Handling missing values & outliers
+- Feature selection and transformation
 
-### 2. 🧱 RDD & DataFrame
-- Creating and manipulating RDDs
-- Transformations and actions on RDD
-- DataFrame creation, schema inference, and queries
+### 🤖 Machine Learning with MLlib
+- Classification:  
+  - Logistic Regression  
+  - Decision Tree  
+  - Naive Bayes  
+- Regression:  
+  - Linear Regression  
+  - Model tuning & evaluation
+- Clustering:  
+  - DBSCAN  
+  - K-Means (if used)
 
-### 3. 🛠️ Data Manipulation & Joins
-- Filtering, sorting, and aggregating data
-- Joining datasets using DataFrame API
+### ⚙️ Model Optimization
+- Hyperparameter tuning
+- Train-test split & cross-validation
+- Evaluation metrics: Accuracy, RMSE, Precision, Recall, F1-score
 
-### 4. 📊 Exploratory Data Analysis (EDA)
-- Summary statistics
-- Visualization of patterns and distributions
+## 🛠️ Technologies Used
+- Python  
+- Apache Spark (PySpark)  
+- Spark MLlib  
+- Jupyter Notebook  
+- Pandas & Numpy  
+- Matplotlib / Seaborn (for visualization)
 
-### 5. 🧪 Machine Learning with MLlib
-- Data preprocessing and feature engineering
-- Train-test split, model selection
+## 📁 Structure
+Each folder represents a different module or task and contains:
+- Notebook/script file (`.ipynb` / `.py`)
+- Output or result visualizations
 
-#### 💡 Algorithms Implemented:
-- **Regression** (Linear Regression)
-- **Classification**:
-  - Logistic Regression
-  - Decision Tree Classifier
-  - Naive Bayes
-- **Clustering**:
-  - K-Means
-  - DBSCAN
-
-### 6. ⚙️ Hyperparameter Tuning & Evaluation
-- Using ParamGridBuilder and CrossValidator
-- Evaluation metrics (accuracy, RMSE, confusion matrix, etc.)
-
-## 🎓 Notes
-This project was developed as part of coursework in the **Big Data and Data Mining** subject during my undergraduate study. 
-The focus was on hands-on implementation using scalable tools and interpreting the results in real-world scenarios.
+## 📌 Notes
+All code was developed as part of academic learning and is intended for educational purposes only.
